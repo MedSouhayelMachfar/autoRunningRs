@@ -1,0 +1,9 @@
+{
+    "mongo_bin_path": "C:/Program Files/MongoDB/Server/4.4.14/bin",
+    "replset_name": "rs0",
+    "instances": [
+        {"host": "127.0.0.1", "port": 27007, "path":"D:/aba-replicaset/data/R0S1", "type": "primary"},
+        {"host": "127.0.0.1", "port": 27008, "path":"D:/aba-replicaset/data/R0S2", "type": "secondary"},
+        {"host": "127.0.0.1", "port": 27009, "path":"D:/aba-replicaset/data/arb", "type": "arbiter"}
+    ]
+}

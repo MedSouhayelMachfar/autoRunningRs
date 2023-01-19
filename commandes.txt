@@ -1,0 +1,4 @@
+rs.initiate()
+rs.status()
+rs.add("127.0.0.1:27008")
+rs.addArb("127.0.0.1:27009")

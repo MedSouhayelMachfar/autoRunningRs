@@ -1,0 +1,13 @@
+{
+  "name": "initiateReplicaSet",
+  "version": "1.0.0",
+  "description": "This script can start a mongodb replicaSet based the configuration set in config.json",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "start:init": "node script.js -init"
+  },
+  "keywords": [],
+  "author": "Med Souhayel Machfar",
+  "license": "ISC"
+}
